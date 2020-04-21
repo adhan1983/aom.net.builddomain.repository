@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Cc1vDwJOsTjQG0+5DsoE8puG8Pvss8zW8gewQ+B0g/MULCFHapLenwoKPtnLkFRnHwzDi3VUD0nNzhZaepGzng==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adhan\\OneDrive\\Documents\\aomgit\\aom.net.builddomain.repository\\paymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adhan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\adhan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

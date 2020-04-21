@@ -1,0 +1,9 @@
+C:\Users\adhan\OneDrive\Documents\aomgit\aom.net.builddomain.repository\paymentContext\PaymentContext.Domain\bin\Debug\netstandard2.0\PaymentContext.Domain.deps.json
+C:\Users\adhan\OneDrive\Documents\aomgit\aom.net.builddomain.repository\paymentContext\PaymentContext.Domain\bin\Debug\netstandard2.0\PaymentContext.Domain.dll
+C:\Users\adhan\OneDrive\Documents\aomgit\aom.net.builddomain.repository\paymentContext\PaymentContext.Domain\bin\Debug\netstandard2.0\PaymentContext.Domain.pdb
+C:\Users\adhan\OneDrive\Documents\aomgit\aom.net.builddomain.repository\paymentContext\PaymentContext.Domain\obj\Debug\netstandard2.0\PaymentContext.Domain.csprojAssemblyReference.cache
+C:\Users\adhan\OneDrive\Documents\aomgit\aom.net.builddomain.repository\paymentContext\PaymentContext.Domain\obj\Debug\netstandard2.0\PaymentContext.Domain.csproj.CoreCompileInputs.cache
+C:\Users\adhan\OneDrive\Documents\aomgit\aom.net.builddomain.repository\paymentContext\PaymentContext.Domain\obj\Debug\netstandard2.0\PaymentContext.Domain.AssemblyInfoInputs.cache
+C:\Users\adhan\OneDrive\Documents\aomgit\aom.net.builddomain.repository\paymentContext\PaymentContext.Domain\obj\Debug\netstandard2.0\PaymentContext.Domain.AssemblyInfo.cs
+C:\Users\adhan\OneDrive\Documents\aomgit\aom.net.builddomain.repository\paymentContext\PaymentContext.Domain\obj\Debug\netstandard2.0\PaymentContext.Domain.dll
+C:\Users\adhan\OneDrive\Documents\aomgit\aom.net.builddomain.repository\paymentContext\PaymentContext.Domain\obj\Debug\netstandard2.0\PaymentContext.Domain.pdb
