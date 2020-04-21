@@ -2029,6 +2029,29 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "PaymentContext.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "PaymentContext.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PaymentContext.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PaymentContext.Domain.dll": {}
+        }
+      },
+      "PaymentContext.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/PaymentContext.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PaymentContext.Shared.dll": {}
+        }
       }
     }
   },
@@ -6868,6 +6891,16 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "PaymentContext.Domain/1.0.0": {
+      "type": "project",
+      "path": "../PaymentContext.Domain/PaymentContext.Domain.csproj",
+      "msbuildProject": "../PaymentContext.Domain/PaymentContext.Domain.csproj"
+    },
+    "PaymentContext.Shared/1.0.0": {
+      "type": "project",
+      "path": "../PaymentContext.Shared/PaymentContext.Shared.csproj",
+      "msbuildProject": "../PaymentContext.Shared/PaymentContext.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6875,6 +6908,8 @@
       "MSTest.TestAdapter >= 2.0.0",
       "MSTest.TestFramework >= 2.0.0",
       "Microsoft.NET.Test.Sdk >= 16.2.0",
+      "PaymentContext.Domain >= 1.0.0",
+      "PaymentContext.Shared >= 1.0.0",
       "coverlet.collector >= 1.2.0"
     ]
   },
@@ -6885,11 +6920,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adhan\\OneDrive\\Documents\\aomgit\\aom.net.builddomain.repository\\paymentContext\\paymentContext.Tests\\paymentContext.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\adhan\\OneDrive\\Documents\\aomgit\\aom.net.builddomain.repository\\paymentContext\\PaymentContext.Tests\\paymentContext.Tests.csproj",
       "projectName": "paymentContext.Tests",
-      "projectPath": "C:\\Users\\adhan\\OneDrive\\Documents\\aomgit\\aom.net.builddomain.repository\\paymentContext\\paymentContext.Tests\\paymentContext.Tests.csproj",
+      "projectPath": "C:\\Users\\adhan\\OneDrive\\Documents\\aomgit\\aom.net.builddomain.repository\\paymentContext\\PaymentContext.Tests\\paymentContext.Tests.csproj",
       "packagesPath": "C:\\Users\\adhan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adhan\\OneDrive\\Documents\\aomgit\\aom.net.builddomain.repository\\paymentContext\\paymentContext.Tests\\obj\\",
+      "outputPath": "C:\\Users\\adhan\\OneDrive\\Documents\\aomgit\\aom.net.builddomain.repository\\paymentContext\\PaymentContext.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -6908,7 +6943,14 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\adhan\\OneDrive\\Documents\\aomgit\\aom.net.builddomain.repository\\paymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
+              "projectPath": "C:\\Users\\adhan\\OneDrive\\Documents\\aomgit\\aom.net.builddomain.repository\\paymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj"
+            },
+            "C:\\Users\\adhan\\OneDrive\\Documents\\aomgit\\aom.net.builddomain.repository\\paymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+              "projectPath": "C:\\Users\\adhan\\OneDrive\\Documents\\aomgit\\aom.net.builddomain.repository\\paymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
