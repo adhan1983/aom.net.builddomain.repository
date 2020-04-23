@@ -1,6 +1,5 @@
-using PaymentContext.Domain.Entities;
+using PaymentContext.Domain.ValueObjects;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-
 
 namespace PaymentContext.Entities
 {
@@ -10,6 +9,9 @@ namespace PaymentContext.Entities
         [TestMethod]
         public void TestMethod1()
         {
+
+            var name = new Name("", "");
+            
             // var student = new Student
             // {
             //     FirstName = "Adhan",

@@ -1,4 +1,5 @@
 using System.Linq;
+using Flunt.Validations;
 using System.Collections.Generic;
 using PaymentContext.Shared.Entities;
 using PaymentContext.Domain.ValueObjects;
@@ -24,8 +25,20 @@ namespace PaymentContext.Domain.Entities
         public string Address { get; private set; }
         public IReadOnlyCollection<Subscription> Subscriptions { get { return _subscriptions.ToArray(); }  }
         public void AddSubscription(Subscription subscription)
-        {            
-            _subscriptions.Add(subscription);
+        {
+            var hasSubscriptionActive = false;
+
+            foreach (var sub in _subscriptions)
+            {
+                if (sub.Active)
+                    hasSubscriptionActive = true;
+            }
+            
+            AddNotifications(
+                new Contract().
+                Requires().
+                IsFalse(hasSubscriptionActive, "Student.Subscriptions", "You have a active subscrition")
+                );
         }
     }
 }
